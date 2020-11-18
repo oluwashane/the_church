@@ -1,0 +1,51 @@
+.footer {
+  background-color: #edf6f9;
+  color: #006d77;
+  padding: 30px 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+.socialIcons {
+  font-size: 1.5em;
+}
+
+.socialIcons span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.socialIcons span:nth-child(1):hover {
+  color: #375a9a;
+  transition: all 300ms ease-out;
+}
+
+.socialIcons span:nth-child(2):hover {
+  color: #23abe0;
+  transition: all 300ms ease-out;
+}
+
+.socialIcons span:nth-child(3):hover {
+  color: #aa3482;
+  transition: all 300ms ease-out;
+}
+
+/* .summary {
+  padding: 20px;
+} */
+
+.textbox {
+  border: 1px solid #006d77;
+  padding: 1em;
+  margin: 10px 0;
+  width: 60%;
+}
+
+.subscribe button {
+  border: none;
+  color: #edf6f9;
+  background-color: #006d77;
+  text-transform: capitalize;
+  padding: 10px 40px;
+}

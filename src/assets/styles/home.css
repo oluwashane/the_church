@@ -1,0 +1,219 @@
+.convert {
+  background-color: #006d77;
+  color: #edf6f9;
+  padding: 10px 0;
+}
+
+.convertData {
+  text-align: center;
+}
+
+.convertData h1 {
+  font-size: 2.5em;
+  outline: none;
+  padding-top: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.convertData button{
+  font-size: 1em;
+  font-weight: 700;
+  color: #edf6f9;
+  background: #83c5be;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 40px;
+  padding: 20px 40px;
+}
+
+/* Events */
+.eventsParent {
+  margin: 0 4em;
+  position: relative;
+  padding-bottom: 5em;
+}
+
+.eventImg {
+  width: 70%;
+}
+
+.eventImg img {
+  width: 100%;
+}
+
+.eventContent {
+  background-color: #83c5c0cc;
+  color: #edf6f9;
+  padding: 2em 3em;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 4em;
+}
+
+.eventContent h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+
+.eventContent button {
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 700;
+  color: #edf6f9;
+  background-color: #006d77;
+  border: none;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
+
+/* serviceInfo */
+.serviceI {
+  text-align: center;
+  background: #edf6f9;
+  color: #006d77;
+  padding: 50px 0 50px 0;
+}
+
+/* prayer request section in home page */
+.prayerRequest {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.prayerRequest button {
+  border: none;
+  padding: 20px;
+  font-weight: 700;
+  color: #edf6f9;
+  background: #006d77;
+}
+
+/* pastor */
+.pastorSection {
+  background: #ffddd2;
+  padding: 70px;
+}
+.pastorData {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4em;
+  width: 100%;
+  margin: auto;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.about {
+  /* background: #006d77; */
+  color: #006d77;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.about p {
+  font-size: 1.2em;
+}
+
+.about button {
+  background-color: #edf6f9;
+  border: none;
+  color: #006d77;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 15px;
+}
+
+@media screen and (max-width: 960px) { 
+  /* convert */
+  .convert {
+    padding: 2em 1em;
+  }
+
+  .convertData h1 {
+    font-size: 2.3em;
+    padding-top: 20px;
+  }
+  
+  .convertData p {
+    font-size: 1em;
+    padding: 0 .8em;
+  }
+  
+  .convertData button{
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #006d77;
+  }
+
+  /* Events */
+  .eventsParent {
+    margin: 0 1em;
+  }
+
+  .eventImg {
+    width: 100%;
+    padding-top: 1em;
+  }
+
+  .eventContent {
+    background: none;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .eventContent h2 {
+      font-size: 2.3em;
+      font-weight: 700;
+  }
+
+  .eventContent button {
+    font-size: 1em;
+    font-weight: 300;
+    color: #006d77;
+    background-color: #83c5be;
+  }
+  
+  /* prayer request section in home page */
+  .prayerRequest {
+    text-align: center;
+    padding: 2em 1em;
+  }
+
+  /* pastor */
+  .pastorSection {
+    padding: 20px;
+  }
+
+  .avatar {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+    /* Events */
+    .eventContent {
+      top: 2em;
+    }
+}

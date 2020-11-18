@@ -1,0 +1,69 @@
+.landingPage {
+  background: #83c5be;
+  background-position: center left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  color: #edf6f9;
+  font-family: 'Poppins', sans-serif;
+}
+
+.message h1{
+  text-align: center;
+  font-size: 4em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: -4px;
+}
+
+.message p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.headerButton Button {
+  background: #006d77;
+  color: #edf6f9;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 1em 3em;
+  margin: auto;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fa-chevron-down {
+  font-size: 2em;
+  color: #006d77;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .message h1{
+    font-size: 3em;
+  }
+  .headerButton Button {
+    padding: 1em 2em;
+    margin-left: 2px;
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-weight: 300;
+  }  
+}
