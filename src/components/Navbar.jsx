@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
 import '../assets/styles/navbar.css'
-import churchLogo from '../assets/images/jdaLogo.png'
 
 
 const Navbar = () => {
