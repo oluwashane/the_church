@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Header from '../Header';
 import Footer from '../Footer';
 import ServiceTime from '../ServiceTime';
@@ -11,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="">
         <div className="convert">
           <div className="convertData">
             <h1>Have you made a decision for christ</h1>
@@ -30,7 +31,11 @@ const Home = () => {
                   Stay up to date on all of the amazing things happening at Jesus Disciples Assembly in Umuahia, Abia. 
                   Find church service times and details on our Updates page.
                 </p>
-                <button>updates</button>
+                  <Link to="/events">
+                    <button>
+                      updates
+                    </button>
+                  </Link>
               </div>
           </div>
         </div>
@@ -41,7 +46,9 @@ const Home = () => {
             <h1>
               How can we pray for you?
             </h1>
-            <button>Prayer Request</button>
+            <Link to="/prayer_request">
+              <button>Prayer Request</button>
+            </Link>
           </div>
         </div>
         {/* pastor data */}

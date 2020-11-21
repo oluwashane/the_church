@@ -3,6 +3,8 @@ import Home from './pages/Home';
 import About from './pages/About'
 import Events from './pages/Events'
 import GiveOnline from './pages/GiveOnline';
+import PrayerForm from './PrayerFrom';
+import Dashboard from './pages/dashboard/Dashboard';
 
 const Main = () => {
   return (
@@ -11,6 +13,8 @@ const Main = () => {
       <Route exact path="/about" component={About} />
       <Route exact path="/events" component={Events} />
       <Route exact path="/donate" component={GiveOnline} />
+      <Route exact path="/prayer_request" component={PrayerForm} />
+      <Route exact path="/dashboard" component={Dashboard} />
       <Redirect to="/home" />
     </Switch>
   )

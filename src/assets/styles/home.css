@@ -217,3 +217,7 @@ p {
       top: 2em;
     }
 }
+
+button {
+  cursor: pointer;
+}
