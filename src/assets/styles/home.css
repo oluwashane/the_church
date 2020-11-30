@@ -1,6 +1,6 @@
 .convert {
-  background-color: #006d77;
-  color: #edf6f9;
+  background-color: #F0F7F4;
+  color: #3C493F;
   padding: 10px 0;
 }
 
@@ -22,8 +22,8 @@ p {
 .convertData button{
   font-size: 1em;
   font-weight: 700;
-  color: #edf6f9;
-  background: #83c5be;
+  color: #ebf6f1;
+  background: #63e0a4;
   border: none;
   outline: none;
   cursor: pointer;
@@ -47,7 +47,7 @@ p {
 }
 
 .eventContent {
-  background-color: #83c5c0cc;
+  background-color: #3c493fb0;
   color: #edf6f9;
   padding: 2em 3em;
   width: 30%;
@@ -67,7 +67,7 @@ p {
   font-size: 1em;
   font-weight: 700;
   color: #edf6f9;
-  background-color: #006d77;
+  background-color: #63e0a4;
   border: none;
   padding: 15px 30px;
   margin-bottom: 20px;
@@ -76,8 +76,8 @@ p {
 /* serviceInfo */
 .serviceI {
   text-align: center;
-  background: #edf6f9;
-  color: #006d77;
+  background: #3C493F;
+  color: #F0F7F4;
   padding: 50px 0 50px 0;
 }
 
@@ -90,14 +90,15 @@ p {
 .prayerRequest button {
   border: none;
   padding: 20px;
+  font-size: 1em;
   font-weight: 700;
   color: #edf6f9;
-  background: #006d77;
+  background: #63e0a4;
 }
 
 /* pastor */
 .pastorSection {
-  background: #ffddd2;
+  background: #ebf6f1;
   padding: 70px;
 }
 .pastorData {
@@ -114,7 +115,7 @@ p {
 
 .about {
   /* background: #006d77; */
-  color: #006d77;
+  color: #3c493f;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,11 +134,11 @@ p {
 }
 
 .about button {
-  background-color: #edf6f9;
+  background-color: #63e0a4;
   border: none;
-  color: #006d77;
+  color: #ebf6f1;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 700;
   padding: 15px;
 }
 
@@ -158,9 +159,8 @@ p {
   }
   
   .convertData button{
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
     font-weight: 300;
-    color: #006d77;
   }
 
   /* Events */
@@ -175,6 +175,7 @@ p {
 
   .eventContent {
     background: none;
+    color: #3c493f;
     padding: 0;
     width: 100%;
     position: relative;
@@ -189,14 +190,18 @@ p {
   .eventContent button {
     font-size: 1em;
     font-weight: 300;
-    color: #006d77;
-    background-color: #83c5be;
+    /* color: #006d77;
+    background-color: #83c5be; */
   }
   
   /* prayer request section in home page */
   .prayerRequest {
     text-align: center;
     padding: 2em 1em;
+  }
+  .prayerRequest button {
+    font-weight: 300;
+    /* font-size: 1em; */
   }
 
   /* pastor */
@@ -207,6 +212,11 @@ p {
   .avatar {
     width: 100%;
     margin-top: 20px;
+  }
+
+  .about button {
+    font-weight: 300;
+    /* font-size: 1em; */
   }
 
 }

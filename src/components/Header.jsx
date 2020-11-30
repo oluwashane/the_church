@@ -1,3 +1,4 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import Navbar from './Navbar';
 import '../assets/styles/header.css'
 
@@ -10,11 +11,19 @@ const Header = () => {
         <p>A church in Nigeria, Abia state where you can connect with destiny</p>
         {/* <p>church service sundays 7:30Am</p> */}
         <div className="headerButton">
-          <button>service info</button>
+          <Link to="serviceI"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <button>service info</button>
+          </Link>
+          
           <button>Who we are</button>
         </div>
         
-        <i class="fas fa-chevron-down"></i>
+        <i className="fas fa-chevron-down"></i>
       </div>
     </div>
   )

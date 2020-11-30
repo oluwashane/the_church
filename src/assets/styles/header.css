@@ -1,5 +1,5 @@
 .landingPage {
-  background: #83c5be;
+  background: #3C493F;
   background-position: center left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   height: 80vh;
-  color: #edf6f9;
+  color: #F0F7F4;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -27,14 +27,15 @@
 
 .message p {
   text-align: center;
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 1.4em;
+  font-weight: 500;
+  letter-spacing: 1px;
   text-transform: capitalize;
 }
 
 .headerButton Button {
-  background: #006d77;
-  color: #edf6f9;
+  background: #63e0a4;
+  color: #e5ebe8;
   border: none;
   border-radius: 3px;
   outline: none;
@@ -50,7 +51,7 @@
 
 .fa-chevron-down {
   font-size: 2em;
-  color: #006d77;
+  color: #63e0a4;
   margin-top: 30px;
 }
 
@@ -58,10 +59,16 @@
   .message h1{
     font-size: 3em;
   }
+
+  .message p {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+
   .headerButton Button {
     padding: 1em 2em;
     margin-left: 2px;
-    font-size: .9em;
     letter-spacing: 1px;
     text-transform: capitalize;
     font-weight: 300;

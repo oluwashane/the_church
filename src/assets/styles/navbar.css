@@ -18,7 +18,7 @@
 .menu-icon {
   width: 50px;
   display: none;
-  color: #006d77;
+  color: #63e0a4;
 }
 
 .nav-menu {
@@ -38,7 +38,7 @@
 }
 
 .nav-links {
-  color: #006d77;
+  color: #F0F7F4;
   font-size: 0.8em;
   letter-spacing: 2px;
   font-weight: bold;
@@ -46,11 +46,11 @@
   padding: 0.5em 1em;
 }
 
-.nav-links:hover {
+/* .nav-links:hover {
   color: #0b090a;
   border-radius: 4px;
   transition: all 0.3s ease;
-}
+} */
 
 @media screen and (max-width: 960px) {
   .navbar {
@@ -92,6 +92,10 @@
   .nav-item {
     margin-top: 30px;
     list-style: none;
+  }
+
+  .nav-links {
+    color: #3C493F;
   }
 }
 

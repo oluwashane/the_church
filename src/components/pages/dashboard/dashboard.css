@@ -1,0 +1,101 @@
+/* :root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-areas: 
+  "sideBar main main main"
+  "sideBar main main main";
+  text-align: center;
+}
+
+.sideBar {
+  background-color: #83c5be;
+  grid-area: sideBar;
+  text-align: center;
+  padding-top: var(--main-padding);
+}
+
+.content {
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+.content1 {
+  grid-area: content1;
+  background-color: black;
+}
+
+.content2 {
+  grid-area: content2;
+  background-color: rgb(202, 45, 45);
+}
+
+.content3 {
+  grid-area: content3;
+  background-color: rgb(35, 121, 61);
+} */
+
+/* .main {
+  grid-area: main;
+  background-color: #edf6f9;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+@media only screen and (max-width: 950px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: .2fr 1fr ;
+    grid-template-areas: 
+    "sideBar"
+    "main"
+    ;
+    gap: 0;
+  }
+
+
+}
+
+/* Dashboard Landing Here */
+/* .landing h2 {
+  padding: 10px;
+  font-weight: 700;
+}
+.mainDashboard {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+} */
+/* 
+.mainCard {
+  background-image: url("/src/assets/images/eventImage.jpg");
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 10px;
+  position: relative;
+  border-radius: none;
+  height: 250px;
+  width: 40%;
+  margin: 20px 0;
+  transition: all 2s ease;
+}
+
+.mainCard:hover {
+  transform: scale(1);
+  box-shadow:  rgba(0, 0, 0, 0.09) 5px 5px, rgba(0, 0, 0, 0.09) 10px 10px, rgba(37, 109, 168, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.mainCard > span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+}  */

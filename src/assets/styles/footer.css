@@ -1,6 +1,6 @@
 .footer {
-  background-color: #edf6f9;
-  color: #006d77;
+  background-color: #3C493F;
+  color: #F0F7F4;
   padding: 30px 2em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -36,7 +36,6 @@
 } */
 
 .textbox {
-  border: 1px solid #006d77;
   padding: 1em;
   margin: 10px 0;
   width: 60%;
@@ -45,7 +44,7 @@
 .subscribe button {
   border: none;
   color: #edf6f9;
-  background-color: #006d77;
+  background-color: #63e0a4;
   text-transform: capitalize;
   padding: 10px 40px;
 }
