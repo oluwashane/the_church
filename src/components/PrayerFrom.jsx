@@ -1,13 +1,13 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
 const PrayForm = () => {
-  const [form, setForm] = useState({
-    fullName: '',
-    phoneNumber: '',
-    prayerRequest: ''
-  })
+  // const [form, setForm] = useState({
+  //   fullName: '',
+  //   phoneNumber: '',
+  //   prayerRequest: ''
+  // })
 
   return (
     <div>

@@ -6,6 +6,7 @@ import eventImage from '../../assets/images/eventImage.jpg';
 import pastorImage from '../../assets/images/bishop.jpeg';
 import '../../assets/styles/home.css';
 import '../../assets/styles/servicetime.css';
+import Believe from '../Believe';
 
 
 const Home = () => {
@@ -77,6 +78,10 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="believes" style={{background: "#3C493F", color: "#F0F7F4", padding: "20px 0"}}>
+          <Believe />
+        </div>
+        
       </div>
       <Footer />
     </>

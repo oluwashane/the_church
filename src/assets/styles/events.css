@@ -5,10 +5,18 @@
   flex-direction: column;
 }
 
+
 .mainContent {
   flex-grow: 1;
   color: #F0F7F4;
 }
+
+.subheading p {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
 
 .eventBody {
   padding: 3em;
@@ -17,7 +25,7 @@
 .data {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* gap: 2em; */
+  gap: 2em;
   width: 100%;
   margin: auto;
 }
@@ -37,6 +45,10 @@
 @media screen and (max-width: 960px) {
   .coming .text {
     padding: 0 1.5em;
+  }
+
+  .eventBody {
+    padding: 2em;
   }
 
   .text {

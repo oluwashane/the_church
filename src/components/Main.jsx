@@ -7,7 +7,7 @@ import PrayerForm from './PrayerFrom';
 import Dashboard from './pages/dashboard/Dashboard';
 import DashboardEvent from './pages/dashboard/DashboardEvent';
 import DashboardPrayer from './pages/dashboard/DashBoardPrayer';
-import { monthlyEvent } from '../shared/events'
+// import { monthlyEvent } from '../shared/events'
 
 const Main = (props) => {
   return (

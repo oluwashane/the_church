@@ -11,13 +11,11 @@ const Events = () => {
     <div className="events">
       <Navbar />
       <div className="mainContent">
-        {/* <p>Upcoming Events</p> */}
-        <ServiceTime />
+        <div className="subheading">
+          <p>Upcoming Event</p>
+        </div>
         <div className="eventBody">
           <div className="data">
-            {/* <div className="imageHolder coming">
-              <img src={church} alt="" srcset=""/>
-            </div> */}
             <div className="coming">
               <img src={church} alt="" srcset=""/>
               <div className="text">
@@ -40,6 +38,7 @@ const Events = () => {
             </div>
           </div>
         </div>
+        <ServiceTime />
       </div>
       <Footer />
     </div>

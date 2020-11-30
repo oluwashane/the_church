@@ -1,4 +1,4 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Navbar from './Navbar';
 import '../assets/styles/header.css'
 
@@ -19,8 +19,12 @@ const Header = () => {
           >
             <button>service info</button>
           </Link>
-          
-          <button>Who we are</button>
+          <Link to="believes"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={500}
+          ><button>Who we are</button></Link>
         </div>
         
         <i className="fas fa-chevron-down"></i>
