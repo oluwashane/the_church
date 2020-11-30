@@ -11,18 +11,32 @@ const Events = () => {
     <div className="events">
       <Navbar />
       <div className="mainContent">
+        {/* <p>Upcoming Events</p> */}
         <ServiceTime />
         <div className="eventBody">
           <div className="data">
-            <div className="imageHolder coming">
+            {/* <div className="imageHolder coming">
               <img src={church} alt="" srcset=""/>
+            </div> */}
+            <div className="coming">
+              <img src={church} alt="" srcset=""/>
+              <div className="text">
+                <h1>Title of Event</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing 
+                  elit. Explicabo, saepe.
+                </p>
+              </div>
             </div>
-            <div className="text coming">
-              <h1>Title of Event</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing 
-                elit. Explicabo, saepe.
-              </p>
+            <div className="coming">
+              <img src={church} alt="" srcset=""/>
+              <div className="text">
+                <h1>Title of Event</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing 
+                  elit. Explicabo, saepe.
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -12,9 +12,9 @@
 }
 
 .button {
-  border: 1px solid #006d77;
-  background: #006d77;
-  color: #83c5be;
+  border: 1px solid #63e0a4;
+  background: #63e0a4;
+  color: #F0F7F4;
   font-weight: 600;
   letter-spacing: 1px;
   /* margin-bottom: 0.8em; */
@@ -49,7 +49,7 @@
 }
 
 .giveOnline {
-  background: #edf6f9;
+  background: #3C493F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,20 +61,21 @@
 }
 
 .accountDetails p {
-  background: #006d77;
+  background: #63e0a4;
   text-align: center; 
-  color: #83c5be;
+  color: #F0F7F4;
   width: 50%;
   padding: 3px;
 }
 
 .accountDetails ul {
   margin: auto;
-
+  padding-bottom: 30px;
 }
 
 .accountDetails li {
   border: 1px solid #83c5be;
+  color: #F0F7F4;
   list-style: none;
   margin: auto;
   width: 50%;
