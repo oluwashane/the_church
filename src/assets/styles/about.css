@@ -1,0 +1,21 @@
+.aboutPage {
+  background: #3C493F;
+  color: #F0F7F4;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  /* height: 2060px; */
+  padding: 60px 30px;
+}
+
+.aboutUs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.imgHolder img {
+  width: 100%;
+}

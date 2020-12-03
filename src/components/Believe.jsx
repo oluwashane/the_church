@@ -32,7 +32,7 @@ const Believe = () => {
       <div>
         <DisplayBelieves />
       </div>
-      <button style={{padding: "15px 30px", background: "#63e0a4", border: "none", color: "#F0F7F4"}}>Read More</button>
+      <button style={{padding: "15px 30px", background: "#63e0a4", border: "none", color: "#F0F7F4", fontSize: "1em"}}>Read More</button>
     </div>
   )
 }

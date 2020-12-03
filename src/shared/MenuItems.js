@@ -8,5 +8,10 @@ export const MenuItems = [
     title: "our branches",
     path: "/about",
     cName: "dropdown-link"
+  },
+  {
+    title: "meet the lead Pastor",
+    path: "/about",
+    cName: "dropdown-link"
   }
 ]
