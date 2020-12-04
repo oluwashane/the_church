@@ -1,0 +1,54 @@
+/* scrollbar */ 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #a5aaad;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ef8354;
+  border: 10px;
+}
+
+.prayers {
+  background: #fff;
+  box-sizing: -5px -5px 19px #fff,
+              5px 5px -19px rgb(163, 163, 163);
+  height: 50vh;
+  padding: 20px;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.prayer_request_header {
+  border-bottom: 1px solid rgb(231, 231, 231);
+  padding-bottom: 10px;
+}
+
+.prayer_request_header > h2 {
+  font-size: 23px;
+  color: #2d3142;
+}
+
+.prayer_list > .card {
+  background: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: #2d3142;
+  padding: 15px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.card > p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card > span {
+  font-size: 12px;
+  font-weight: 700;
+}

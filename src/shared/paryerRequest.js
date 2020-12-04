@@ -1,4 +1,4 @@
-export const PrayerRequest = [
+export const RequestData = [
   {
     id: 1,
     name: "john doe",

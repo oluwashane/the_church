@@ -21,12 +21,12 @@ const Sidebar = () => {
           <h2>Management</h2>
           <div className="sidebar_link">
           <i class="far fa-calendar-alt"></i>
-            <a href="/postevent">New Event</a>
+            <a href="/new_event">New Event</a>
           </div>
 
           <div className="sidebar_link">
             <i class="fas fa-file-alt"></i>
-            <a href="/request">Prayer Requests</a>
+            <a href="/requests">Prayer Requests</a>
           </div>
         </div>
 

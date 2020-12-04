@@ -5,6 +5,8 @@ import Events from './pages/Events'
 import GiveOnline from './pages/GiveOnline';
 import PrayerForm from './PrayerFrom';
 import Dash from '../components/pages/dashboard/Dash';
+import AddEvent from '../components/pages/dashboard/AddEvent';
+import PrayerRequest from '../components/pages/dashboard/PrayerRequest'
 // import { monthlyEvent } from '../shared/events'
 
 const Main = (props) => {
@@ -16,6 +18,8 @@ const Main = (props) => {
       <Route exact path="/donate" component={GiveOnline} />
       <Route exact path="/prayer_request" component={PrayerForm} />
       <Route exact path="/admin" component={Dash} />
+      <Route exact path="/new_event" component={AddEvent} />
+      <Route exact path="/requests" component={PrayerRequest} />
       <Redirect to="/home" />
     </Switch>
   )
