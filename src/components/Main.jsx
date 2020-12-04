@@ -4,6 +4,7 @@ import About from './pages/About'
 import Events from './pages/Events'
 import GiveOnline from './pages/GiveOnline';
 import PrayerForm from './PrayerFrom';
+import Dash from '../components/pages/dashboard/Dash';
 // import { monthlyEvent } from '../shared/events'
 
 const Main = (props) => {
@@ -14,6 +15,7 @@ const Main = (props) => {
       <Route exact path="/events" component={Events} />
       <Route exact path="/donate" component={GiveOnline} />
       <Route exact path="/prayer_request" component={PrayerForm} />
+      <Route exact path="/admin" component={Dash} />
       <Redirect to="/home" />
     </Switch>
   )
