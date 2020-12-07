@@ -13,5 +13,10 @@ export const MenuItems = [
     title: "meet the lead Pastor",
     path: "/about",
     cName: "dropdown-link"
+  },
+  {
+    title: "Login",
+    path: "/admin",
+    cName: "dropdown-link"
   }
 ]
