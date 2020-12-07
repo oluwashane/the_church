@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-
+import '../assets/styles/prayerForm.css'
 const PrayForm = () => {
   // const [form, setForm] = useState({
   //   fullName: '',
@@ -10,22 +10,29 @@ const PrayForm = () => {
   // })
 
   return (
-    <div>
+    <div className="prayer">
       <Navbar />
-      <div className="">
+      <div className="main">
         <h1>Submit your prayer request</h1>
-        <form action="">
-          
-          <label htmlFor="fullName">FullName</label>
-          <input type="text" name="fullName" />
+        <div className="formContainer">
+          <form action="">
+            <div className="textBox">
+            <label htmlFor="fullName">FullName</label>
+            <input type="text" name="fullName" />
+            </div>
 
-          <label htmlFor="phoneNumber">Mobile Number</label>
-          <input type="text" name="phoneNumber" />
+            <div className="textBox">
+            <label htmlFor="phoneNumber">Mobile Number</label>
+            <input type="text" name="phoneNumber" />
+            </div>
 
-          <label htmlFor="prayerRequest">PrayerRequest</label>
-          <textarea name="prayerRequest" id="" cols="30" rows="10"></textarea>
-
-        </form>
+            <div className="textBox">
+            <label htmlFor="prayerRequest">PrayerRequest</label>
+            <textarea name="prayerRequest" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
       </div>
       <Footer />
     </div>

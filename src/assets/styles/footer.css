@@ -1,5 +1,6 @@
 .footer {
   background-color: #3C493F;
+  font-size: 15px;
   color: #F0F7F4;
   padding: 30px 2em;
   display: grid;
@@ -31,9 +32,6 @@
   transition: all 300ms ease-out;
 }
 
-/* .summary {
-  padding: 20px;
-} */
 
 .textbox {
   padding: 1em;

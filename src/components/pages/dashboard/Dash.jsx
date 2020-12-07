@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import Sidebar from './Sidebar';
+import welcomeImg from '../../../assets/images/welcome.jpg';
 import './dashStyle.css'
 
 const dash = () => {
@@ -10,7 +10,7 @@ const dash = () => {
       <main>
         <div className="welcome_showcase">
           <div className="welcome_image">
-            <img src="#" alt="welcome"/>
+            <img src={welcomeImg} alt="welcome"/>
           </div>
           <div className="welcome_text">
             <h1>Hello Pastor</h1>
@@ -25,8 +25,8 @@ const dash = () => {
               <p>Lorem, ipsum dolor.</p>
             </div>
             <span className="card_icon">
-              <i class="far fa-edit"></i>
-              <i class="far fa-trash-alt"></i>
+              <i className="far fa-edit"></i>
+              <i className="far fa-trash-alt"></i>
             </span>
           </div>
 
@@ -36,8 +36,8 @@ const dash = () => {
               <p>Lorem, ipsum dolor.</p>
             </div>
             <span className="card_icon">
-              <i class="far fa-edit"></i>
-              <i class="far fa-trash-alt"></i>
+              <i className="far fa-edit"></i>
+              <i className="far fa-trash-alt"></i>
             </span>
           </div>
 
@@ -47,15 +47,14 @@ const dash = () => {
               <p>Lorem, ipsum dolor.</p>
             </div>
             <span className="card_icon">
-              <i class="far fa-edit"></i>
-              <i class="far fa-trash-alt"></i>
+              <i className="far fa-edit"></i>
+              <i className="far fa-trash-alt"></i>
             </span>
           </div>
 
         </div>
 
       </main>
-      <Sidebar />
     </div>
   )
 }

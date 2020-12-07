@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from './Nav';
-import Sidebar from './Sidebar'
 import { RequestData } from '../../../shared/paryerRequest'
 import './dashStyle.css';
 import './request.css';
@@ -33,7 +32,6 @@ const PrayerRequest = () => {
           <Request />
         </div>
       </main>
-      <Sidebar />
     </div>
   )
 }

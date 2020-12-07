@@ -48,15 +48,20 @@ main {
 
 main .welcome_showcase {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
-  padding: 50px 0;
+  padding: 50px 20px;
   margin-top: 10px;
   margin-bottom: 20px;
   background: #fff;
   box-sizing: 5px 5px -15px #ffff,
               -5px -5px 15px #ffff; 
 }
+
+.welcome_showcase .welcome_text {
+  margin-left: 20px;
+}
+
 
 .welcome_showcase .welcome_text > h1 {
   font-size: 24px;
@@ -113,6 +118,8 @@ main .welcome_showcase {
   padding: 10px 10px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  position: fixed;
+  height: 100vh;
 }
 
 .sidebar_title {
@@ -181,7 +188,11 @@ main .welcome_showcase {
   }
 
   .sidebar {
-    display: none;
+    left: -250px;
+  }
+
+  .fa-times {
+    display: inline;
   }
 
   .nav_icon {
@@ -197,7 +208,15 @@ main .welcome_showcase {
     margin: 40px 0;
   }
 
-  .sidebar {
-    border: 1px solid red;
+}
+
+@media only screen and (max-width: 480px) {
+  main .welcome_showcase {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome_showcase .welcome_text {
+    margin-left: 0;
   }
 }

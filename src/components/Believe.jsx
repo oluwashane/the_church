@@ -28,11 +28,11 @@ const DisplayBelieves = () => {
 const Believe = () => {
   return (
     <div style={{ padding: "50px", textAlign: "center"}}>
-      <h2 style={{letterSpacing: "1px"}}>What We Believe</h2>
+      <h2 style={{letterSpacing: "1px", marginBottom: "20px"}}>What We Believe</h2>
       <div>
         <DisplayBelieves />
       </div>
-      <button style={{padding: "15px 30px", background: "#63e0a4", border: "none", color: "#F0F7F4", fontSize: "1em"}}>Read More</button>
+      <button style={{padding: "15px 30px", background: "#63e0a4", border: "none", color: "#F0F7F4", fontSize: "1em", marginTop: "20px"}}>Read More</button>
     </div>
   )
 }
