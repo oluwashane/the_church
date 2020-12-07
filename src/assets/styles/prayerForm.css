@@ -1,0 +1,46 @@
+.prayer {
+  background-color: #3C493F;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin: 39px 40px;
+}
+
+.main h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ebf6f1;
+}
+
+.formContainer form{
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+}
+
+.formContainer form > .textBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.formContainer form > .textBox > label {
+  margin-bottom: 9px;
+  color: #ebf6f1;
+}
+
+input, textarea {
+  padding: 20px;
+}
+
+.formContainer form > button {
+  padding: 10px;
+  margin-top: 10px;
+  color: #ebf6f1;
+  font-size: 16px;
+  background-color: #63e0a4;
+  border: none;
+}
+

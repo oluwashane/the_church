@@ -8,7 +8,7 @@ import church from '../../assets/images/landing.jpg'
 
 const Events = () => {
   return (
-    <div className="events">
+    <div className="event">
       <Navbar />
       <div className="mainContent">
         <div className="subheading">

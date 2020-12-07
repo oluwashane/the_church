@@ -9,7 +9,6 @@ const Header = () => {
       <div className="message">
         <h1>We are better together</h1>
         <p>A church in Nigeria, Abia state where you can connect with destiny</p>
-        {/* <p>church service sundays 7:30Am</p> */}
         <div className="headerButton">
           <Link to="serviceI"
             spy={true}

@@ -1,13 +1,13 @@
 /* events */
-.events {
+.event {
   background: #3C493F;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
 }
 
 
 .mainContent {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   color: #F0F7F4;
 }
 
@@ -40,12 +40,8 @@
   /* height: 30%; */
 }
 
-.coming img {
-  width: 100%
-}
-
 .coming .text {
-  padding: 0 1.5em;
+  padding: 1.5em;
 }
 
 @media screen and (max-width: 960px) {

@@ -1,0 +1,32 @@
+.newPost {
+  background: #fff;
+  padding: 20px;
+}
+.postHeader > h2 {
+  font-size: 25px;
+  color: #4f5d75;
+  margin-bottom: 10px;
+}
+
+.postForm {
+  width: 50%;
+}
+
+.text_box > .formData {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px;
+  border: 1px solid #4f5d75;
+}
+
+::placeholder {
+  color: #4f5d75;
+}
+
+.addButton {
+  padding: 4px 20px;
+  border: none;
+  background-color: #4f5d75;
+  color: #fff;
+  font-weight: 700;
+}
